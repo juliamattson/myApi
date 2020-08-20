@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/flowers
+
+### 
+
+POST http://localhost:3000/api/flowers 
+Content-Type: application/json
+
+{
+    
+"Color": "Gul", 
+"Name": "Solros"
+}
